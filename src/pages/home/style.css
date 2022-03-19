@@ -6,6 +6,11 @@ header {
   justify-content: center;
 }
 
+.qntProd {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
 .entrar {
   margin-left: 5px;
 }
@@ -13,6 +18,7 @@ header {
 .headerRigth {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 button {
@@ -46,16 +52,16 @@ img {
 }
 
 .buttonCart {
-  height: 45px;
-  width: 45px;
+  height: 35px;
+  width: 35px;
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
 .imgButtonCart {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border-radius: 8px;
 }
 

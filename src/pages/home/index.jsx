@@ -26,7 +26,7 @@ const Home = () => {
             <button className="buttonCart" onClick={irCart}>
               <img className="imgButtonCart" src={imgCart} alt="img"></img>
             </button>
-            <span>{productsCart.length}</span>
+            <span className="qntProd">{productsCart.length}</span>
             <button className="entrar">Entrar</button>
           </div>
         </div>

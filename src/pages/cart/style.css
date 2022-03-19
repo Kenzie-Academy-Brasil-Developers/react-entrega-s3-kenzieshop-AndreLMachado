@@ -9,9 +9,10 @@
 
 .listCart {
   height: 80vh;
-  width: 70vw;
+  width: 80vw;
   overflow: auto;
   min-width: 300px;
+  justify-content: flex-start;
 }
 
 .buttonsRHeader {
@@ -19,7 +20,7 @@
   flex-direction: column;
 }
 
-.divHeader button {
+.buttonHome {
   height: 30px;
   width: 110px;
   margin: 5px 0px;
@@ -80,5 +81,9 @@ span {
   .buttonHome {
     width: 100px;
     height: 40px;
+  }
+
+  h3 {
+    margin-bottom: 10px;
   }
 }
