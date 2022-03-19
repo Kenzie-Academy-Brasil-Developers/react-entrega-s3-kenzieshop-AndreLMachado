@@ -1,0 +1,87 @@
+header {
+  width: 100vw;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entrar {
+  margin-left: 5px;
+}
+
+.headerRigth {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  min-height: 25px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divHeader {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  margin: 0px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.buttonCart {
+  height: 45px;
+  width: 45px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.imgButtonCart {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+}
+
+p {
+  font-size: 14px;
+}
+
+li {
+  background-color: rgb(59, 58, 58);
+  list-style: none;
+  width: 280px;
+  height: 365px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+ul {
+  display: flex;
+  width: 90vw;
+  padding: 0px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1100px;
+}

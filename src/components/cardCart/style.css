@@ -1,0 +1,11 @@
+.CardCart {
+  height: 260px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.CardCart img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
