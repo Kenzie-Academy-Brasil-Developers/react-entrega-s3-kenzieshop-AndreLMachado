@@ -26,7 +26,7 @@ export const remToCartThunk = (product) => (dispatch) => {
   console.log(product);
   const list = JSON.parse(localStorage.getItem("productsCart")) || [];
 
-  const newList = list.filter((product) => product.id !== product.id);
+  const newList = list.filter((products) => products.id !== product.id);
 
   localStorage.setItem("productsCart", JSON.stringify(newList));
 
